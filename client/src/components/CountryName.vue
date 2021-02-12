@@ -1,6 +1,8 @@
 <template>
     <div>
-        <button>{{country}}</button>
+        <ul>
+        <li class="name-list"><button class="name-btn">{{country}}</button></li>
+        </ul>
     </div>
 </template>
 
@@ -16,4 +18,13 @@ export default {
 
 <style scoped>
 
+.name-list {
+    list-style: none;
+}
+.name-btn {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 5px;
+}
 </style>
