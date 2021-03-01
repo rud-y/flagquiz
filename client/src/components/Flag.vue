@@ -21,6 +21,7 @@ export default {
 <style scoped>
   .flag-image{
     width: 30%;
+    padding: 1rem;
   }
 
 </style>
